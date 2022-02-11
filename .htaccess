@@ -1,0 +1,5 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/abandolo/bandolon.dev"
+PassengerBaseURI "/"
+PassengerRuby "/home/abandolo/rubyvenv/bandolon.dev/2.7/bin/ruby"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
