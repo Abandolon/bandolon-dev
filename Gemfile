@@ -3,79 +3,165 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.7.4"
 
-# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.2"
+gem 'actioncable', '7.0.2'
+gem 'actionmailbox', '7.0.2'
+gem 'actionmailer', '7.0.2'
+gem 'actionpack', '7.0.2'
+gem 'actiontext', '7.0.2'
+gem 'actionview', '7.0.2'
+gem 'activejob', '7.0.2'
+gem 'activemodel', '7.0.2'
+gem 'activerecord', '7.0.2'
+gem 'activestorage', '7.0.2'
+gem 'activesupport', '7.0.2'
+gem 'addressable', '2.8.0'
+gem 'autoprefixer-rails', '10.2.5.0'
+gem 'bcrypt', '3.1.16'
+gem 'benchmark', '0.1.0'
+gem 'bindex', '0.8.1'
+gem 'bootsnap', '1.10.3'
+gem 'builder', '3.2.4'
+gem 'byebug', '11.1.3'
+gem 'capybara', '3.36.0'
+gem 'cgi', '0.1.0'
+gem 'childprocess', '4.1.0'
+gem 'coderay', '1.1.3'
+gem 'concurrent-ruby', '1.1.9'
+gem 'crass', '1.0.6'
+gem 'csv', '3.1.2'
+gem 'date', '3.0.0'
+gem 'debug', '1.4.0'
+gem 'delegate', '0.1.0'
+gem 'devise', '4.8.1'
+gem 'did_you_mean', '1.4.0'
+gem 'diff-lcs', '1.5.0'
+gem 'digest', '3.1.0'
+gem 'dotenv', '2.7.6'
+gem 'dotenv-rails', '2.7.6'
+gem 'erubi', '1.10.0'
+gem 'etc', '1.1.0'
+gem 'execjs', '2.7.0'
+gem 'fcntl', '1.0.0'
+gem 'ffi', '1.15.5'
+gem 'fiddle', '1.0.0'
+gem 'fileutils', '1.4.1'
+gem 'font-awesome-sass', '5.15.1'
+gem 'forwardable', '1.3.1'
+gem 'gdbm', '2.1.0'
+gem 'getoptlong', '0.1.0'
+gem 'globalid', '1.0.0'
+gem 'i18n', '1.10.0'
+gem 'image_processing', '1.12.1'
+gem 'importmap-rails', '1.0.2'
+gem 'io-console', '0.5.11'
+gem 'io-wait', '0.2.1'
+gem 'ipaddr', '1.2.2'
+gem 'irb', '1.4.1'
+gem 'jbuilder', '2.11.5'
+gem 'logger', '1.4.2'
+gem 'loofah', '2.14.0'
+gem 'mail', '2.7.1'
+gem 'marcel', '1.0.2'
+gem 'matrix', '0.4.2'
+gem 'method_source', '1.0.0'
+gem 'mini_magick', '4.11.0'
+gem 'mini_mime', '1.1.2'
+gem 'mini_portile2', '2.8.0'
+gem 'minitest', '5.15.0'
+gem 'msgpack', '1.4.5'
+gem 'mutex_m', '0.1.0'
+gem 'mysql2', '0.5.3'
+gem 'net-imap', '0.2.3'
+gem 'net-pop', '0.1.1'
+gem 'net-protocol', '0.1.2'
+gem 'net-smtp', '0.3.1'
+gem 'nio4r', '2.5.8'
+gem 'nokogiri', '1.13.3'
+gem 'observer', '0.1.0'
+gem 'open3', '0.1.0'
+gem 'orm_adapter', '0.5.0'
+gem 'ostruct', '0.2.0'
+gem 'prime', '0.1.1'
+gem 'pry', '0.13.1'
+gem 'pry-byebug', '3.9.0'
+gem 'pry-rails', '0.3.9'
+gem 'pstore', '0.1.0'
+gem 'public_suffix', '4.0.6'
+gem 'puma', '5.6.1'
+gem 'racc', '1.6.0'
+gem 'rack', '2.2.3'
+gem 'rack-test', '1.1.0'
+gem 'rails', '7.0.2'
+gem 'rails-dom-testing', '2.0.3'
+gem 'rails-html-sanitizer', '1.4.2'
+gem 'railties', '7.0.2'
+gem 'rake', '13.0.6'
+gem 'readline', '0.0.2'
+gem 'readline-ext', '0.1.0'
+gem 'regexp_parser', '2.2.1'
+gem 'reline', '0.3.1'
+gem 'responders', '3.0.1'
+gem 'rexml', '3.2.5'
+gem 'rspec-core', '3.11.0'
+gem 'rspec-expectations', '3.11.0'
+gem 'rspec-mocks', '3.11.0'
+gem 'rspec-rails', '5.0.3'
+gem 'rspec-support', '3.11.0'
+gem 'rss', '0.2.8'
+gem 'ruby-vips', '2.1.4'
+gem 'rubyzip', '2.3.2'
+gem 'sassc', '2.4.0'
+gem 'sassc-rails', '2.1.2'
+gem 'sdbm', '1.0.0'
+gem 'selenium-webdriver', '4.1.0'
+gem 'simple_form', '5.1.0'
+gem 'singleton', '0.1.0'
+gem 'sprockets', '4.0.2'
+gem 'sprockets-rails', '3.4.2'
+gem 'stimulus-rails', '1.0.2'
+gem 'stringio', '0.1.0'
+gem 'strscan', '3.0.1'
+gem 'thor', '1.2.1'
+gem 'tilt', '2.0.10'
+gem 'timeout', '0.2.0'
+gem 'tracer', '0.1.0'
+gem 'turbo-rails', '1.0.1'
+gem 'tzinfo', '2.0.4'
+gem 'uri', '0.10.0'
+gem 'warden', '1.2.9'
+gem 'web-console', '4.2.0'
+gem 'webdrivers', '5.0.0'
+gem 'webrick', '1.6.1'
+gem 'websocket-driver', '0.7.5'
+gem 'websocket-extensions', '0.1.5'
+gem 'xpath', '3.2.0'
+gem 'yaml', '0.1.0'
+gem 'zeitwerk', '2.5.4'
+gem 'zlib', '1.1.0'
 
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
+# group :development, :test do
+#   gem 'pry-byebug'
+#   gem 'pry-rails'
+#   gem 'dotenv-rails'
+#   gem 'rspec-rails', '~> 5.0.0'
+#   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+#   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+# end
 
-# Use mysql as the database for Active Record
-gem "mysql2", "~> 0.5"
+# group :development do
+#   # Use console on exceptions pages [https://github.com/rails/web-console]
+#   gem "web-console"
 
-# Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 5.0"
+#   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
+#   # gem "rack-mini-profiler"
 
-# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem "importmap-rails"
+#   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
+#   # gem "spring"
+# end
 
-# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
-
-# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem "stimulus-rails"
-
-# Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
-
-# Use Redis adapter to run Action Cable in production
-# gem "redis", "~> 4.0"
-
-# Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
-# gem "kredis"
-
-# Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
-# gem "bcrypt", "~> 3.1.7"
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
-
-# Reduces boot times through caching; required in config/boot.rb
-gem "bootsnap", require: false
-
-# Use Sass to process CSS
-gem "sassc-rails"
-
-# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-gem "image_processing", "~> 1.2"
-
-gem 'devise'
-
-gem 'autoprefixer-rails', '10.2.5'
-gem 'font-awesome-sass'
-gem 'simple_form'
-group :development, :test do
-  gem 'pry-byebug'
-  gem 'pry-rails'
-  gem 'dotenv-rails'
-  gem 'rspec-rails', '~> 5.0.0'
-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", platforms: %i[ mri mingw x64_mingw ]
-end
-
-group :development do
-  # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem "web-console"
-
-  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
-  # gem "rack-mini-profiler"
-
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
-end
-
-group :test do
-  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
-  gem "selenium-webdriver"
-  gem "webdrivers"
-end
+# group :test do
+#   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+#   gem "capybara"
+#   gem "selenium-webdriver"
+#   gem "webdrivers"
+# end
